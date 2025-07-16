@@ -17,28 +17,38 @@
 //     console.log('Invalid');
 // }
 
-function getSubscriptionPrice(type) {
-  switch (type) {
-    case 'starter':
-      console.log('0');
+// function getSubscriptionPrice(type) {
+//   switch (type) {
+//     case 'starter':
+//       console.log('0');
 
-      break;
+//       break;
 
-    case 'professional':
-      console.log('20');
+//     case 'professional':
+//       console.log('20');
 
-      break;
+//       break;
 
-    case 'organization':
-      console.log('50');
+//     case 'organization':
+//       console.log('50');
 
-      break;
+//       break;
 
-    default:
-      console.log('Invalid subscription type!');
-  }
-  return type;
+//     default:
+//       console.log('Invalid subscription type!');
+//   }
+//   return type;
+// }
+
+// getSubscriptionPrice('starter');
+// getSubscriptionPrice('random');
+
+function checkForName(fullName, firstName) {
+  const toLowerCaseFull = fullName.toLowerCase();
+  const toLowerCaseFirst = firstName.toLowerCase();
+
+  return toLowerCaseFull.includes(toLowerCaseFirst);
 }
 
-getSubscriptionPrice('starter');
-getSubscriptionPrice('random');
+console.log(checkForName('Jason Neis', 'Jason'));
+console.log(checkForName('Jason Neis', 'Jacob'));
