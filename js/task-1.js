@@ -63,3 +63,9 @@
 // console.log(getFileName('index.html'));
 // console.log(getFileName('app.js'));
 // console.log(getFileName('app'));
+
+// function createFileName(name, ext) {
+//   return name.trim() + '.' + ext.trim();
+// }
+
+// console.log(createFileName(' order ', 'txt'));
