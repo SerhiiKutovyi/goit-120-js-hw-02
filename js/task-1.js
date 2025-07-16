@@ -43,12 +43,23 @@
 // getSubscriptionPrice('starter');
 // getSubscriptionPrice('random');
 
-function checkForName(fullName, firstName) {
-  const toLowerCaseFull = fullName.toLowerCase();
-  const toLowerCaseFirst = firstName.toLowerCase();
+// function checkForName(fullName, firstName) {
+//   const toLowerCaseFull = fullName.toLowerCase();
+//   const toLowerCaseFirst = firstName.toLowerCase();
 
-  return toLowerCaseFull.includes(toLowerCaseFirst);
-}
+//   return toLowerCaseFull.includes(toLowerCaseFirst);
+// }
 
-console.log(checkForName('Jason Neis', 'Jason'));
-console.log(checkForName('Jason Neis', 'Jacob'));
+// console.log(checkForName('Jason Neis', 'Jason'));
+// console.log(checkForName('Jason Neis', 'Jacob'));
+
+// function getFileName(file) {
+//   const index = file.indexOf('.');
+//   const slice = file.slice(0, index);
+//   return index === -1 ? file : slice;
+// }
+
+// console.log(getFileName('styles.css'));
+// console.log(getFileName('index.html'));
+// console.log(getFileName('app.js'));
+// console.log(getFileName('app'));
