@@ -69,3 +69,43 @@
 // }
 
 // console.log(createFileName(' order ', 'txt'));
+
+// function countClients(clientCounter, maxClients) {
+//   let counter = clientCounter; // створюємо локальну змінну
+
+//   while (counter <= maxClients) {
+//     console.log(counter);
+//     counter += 1;
+//   }
+// }
+
+// countClients(18, 25);
+
+// function calculateTotal(number) {
+//   let sum = 0;
+//   let i = 1;
+
+//   while (i <= number) {
+//     sum += i;
+//     i++;
+//   }
+
+//   return sum;
+// }
+// // console.log(calculateTotal(3));
+// console.log(calculateTotal(3));
+
+// for (let i = 0; i <= 20; i += 5) {
+//   console.log(i);
+// }
+
+function calculateTotal(number) {
+  let element = 0;
+
+  for (let i = 1; i <= number; i++) {
+    element += i;
+  }
+  return element;
+}
+
+console.log(calculateTotal(18));
