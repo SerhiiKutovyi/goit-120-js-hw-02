@@ -99,13 +99,47 @@
 //   console.log(i);
 // }
 
-function calculateTotal(number) {
-  let element = 0;
+// function calculateEvenTotal(number) {
+//   let element = 0;
 
-  for (let i = 1; i <= number; i++) {
-    element += i;
-  }
-  return element;
-}
+//   for (let i = 0; i <= number; i++) {
+//     if (i % 2 === 0) {
+//       element += i;
+//     }
+//   }
+//   return element;
+// }
 
-console.log(calculateTotal(18));
+// console.log(calculateEvenTotal(3));
+
+// const start = 6;
+// const end = 17;
+// let number = 0;
+
+// for (let i = start; i <= end; i++) {
+//   if (i % 5 === 0) {
+//     number += i;
+//     break;
+//   }
+// }
+// console.log(number);
+
+// function findNumber(max, target) {
+//   console.log('Log in the body of the function before the cycle');
+
+//   for (let i = 5; i <= max; i += 1) {
+//     console.log('Current counter value i:', i);
+
+//     if (i === target) {
+//       console.log(`Found the number ${target}, interrupt the cycle`);
+//       break;
+//     }
+//   }
+
+//   console.log('Log in body function after cycle');
+// }
+
+// findNumber(10, 6);
+// console.log('Log after exiting function');
+
+findNumber(start, end, divisor);
