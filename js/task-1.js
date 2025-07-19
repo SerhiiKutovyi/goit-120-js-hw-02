@@ -142,16 +142,14 @@
 // findNumber(10, 6);
 // console.log('Log after exiting function');
 
-function findNumber(start, end, divisor) {
-  let num = 0;
-  for (let i = start; i <= end; i++) {
-    if (i % divisor === 0) {
-      num = i;
-      return num;
-    }
-  }
-  return num;
-}
+// function findNumber(start, end, divisor) {
+//   for (let i = start; i <= end; i++) {
+//     if (i % divisor === 0) {
+//       return i;
+//     }
+//   }
+//   return 0;
+// }
 
-console.log(findNumber(8, 17, 3));
-console.log(findNumber(16, 35, 7));
+// console.log(findNumber(8, 17, 3));
+// console.log(findNumber(16, 35, 7));
